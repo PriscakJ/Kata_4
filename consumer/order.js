@@ -1,7 +1,8 @@
 class Order {
-  constructor(id, items) {
+  constructor(id, items, something) {
     this.id = id;
     this.items = items;
+    this.something = something;
   }
 
   total() {
